@@ -4,15 +4,19 @@
 		<title>Psychic Game</title>
 
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	</head>
-	<body>
+	<body onload="game();">
 		<h1>The Psychic Game</h1>
 		<p>Guess what letter I'm thinking of</p>
 		<p>Wins:<a id="winCount"></a></p>
 		<p>Losses:<a id="lossCount"></a></p>
 		<p>Guesses Left:<a id="guessCount"></a></p>
 		<p>Your guesses so far:<a id="letterList"></a></p>
+		<p>My letter is <a id="hintList"></a></p>
 	</body>
 
-	<script type="text/javascript" src="assets/javascript/game.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js">
+	</script>
+
 </html>
